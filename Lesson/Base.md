@@ -9,3 +9,13 @@ class Message1 {
     System.out.print("Good morning.");
 にすると、改行がなくなる。また、””での閉じるのは同じ行に入れること
     System.out.print("Goodmorning.\n");という形で処理をすると改行が出来る
+
+class TextBlocksExample {
+    public static void main(String[] args) {
+      System.out.print("""
+          Good morning.
+          Good afternoon.
+          goodevening.""");
+    }
+}
+TEXTBLOCKSを利用したプログラム
