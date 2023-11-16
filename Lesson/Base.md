@@ -31,3 +31,19 @@ class Character {
   }
 }
 ''で囲んだ部分は「文字」として扱い、""で囲んだ部分は「文字列」として扱う
+
+class Number1 {
+  public static void main(String[] args) {
+    System.out.println(1);
+    System.out.println(2);
+    System.out.println(3);
+  }
+}
+数値を出力する時は””でにする必要無し。
+    System.out.println(1234);
+    System.out.println("1234");
+だと、上はせんにひゃくさんじゅうよん、下はいちにさんしが表示されている。
+
+
+/*  */で囲った部分はコメントアウト
+//は行がコメントアウト
