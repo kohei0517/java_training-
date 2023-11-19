@@ -47,3 +47,16 @@ class Number1 {
 
 /*  */で囲った部分はコメントアウト
 //は行がコメントアウト
+
+public class WhileStatement{
+  public static void main(String[] args){
+    int num = 8;
+    int rand = (int)(10* math.random()) + 1;
+    while(rand != num ) {
+      System.out.println("randの値;" +rand);
+      rand = (int)(10 * math.random())+1;
+      }
+      System.out.println("ループ終了");
+    }
+  }
+while文の使い方
